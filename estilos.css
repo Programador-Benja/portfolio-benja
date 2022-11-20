@@ -1,6 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 238);
 }
 .header{
     background-color: slategray;
@@ -24,8 +28,6 @@
     text-shadow: 2px 2px 2px black;
     padding: 20px 5px;
 }
-.header-div2{
-}
 .header-div2 ul{
     display: flex;
     list-style: none;
@@ -36,6 +38,9 @@
     padding: 20px;
     border-radius: 20px 0 20px 0;
 }
+.header-div2 li:hover{
+    background-color: rgb(50, 50, 50);
+}
 .header-div2 a{
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -43,16 +48,49 @@
     text-shadow: 2px 2px 2px black;
 }
 
-/*
-ul{
-    display: flex;
-    list-style: none;
+.seccion{
+    margin-top: 75px;
 }
-li{
-    margin: 0 20px;
+.seccion-div{
+    text-align: center;
 }
-a{
-    color: #000;
-    text-decoration: none;
+.seccion-div img{
+    width: 500px;
+    border-radius: 100%;
+    border: double 10px rgb(32, 32, 32);
 }
-*/
+.seccion-div2 h1{
+    color: rgb(88, 88, 88);
+    margin: 10px 0;
+    text-shadow: 1px 1px 1px black;
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+.seccion-div2 p{
+    color: black;
+    margin: 10px 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.seccion-div3{
+    background-color: slategray;
+    width: 100%;
+    margin-top: 75px;
+}
+.seccion-div3 h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 50px 0px 50px;
+}
+.seccion-div3 p{
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding: 50px;
+}
