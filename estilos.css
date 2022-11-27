@@ -143,10 +143,12 @@ body{
     width: 600px;
     height: 400px;
     margin: 20px auto;
+    border-radius: 5%;
 }
 .seccion-proyectos img{
     width: 100%;
     height: 100%;
+    border-radius: 5%;
 }
 
 .seccion-masProyectos{
@@ -168,4 +170,48 @@ body{
     background-color: white;
     text-decoration:underline;
     border: 2px solid rgb(80,80,80);
+}
+
+/*SECCION 4*/
+
+.seccion-4{
+    margin: 75px auto 0px auto;
+    width: 80%;
+    background-color: slategray;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border: 5px double black;
+    border-radius: 20px;
+}
+.seccion-contacto--titulo, .seccion-contacto--parrafo, .seccion-contacto--email{
+    width: 33.3%;
+    text-align: center;
+}
+.seccion-contacto--titulo h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.seccion-contacto--parrafo p{
+    color: white;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 1px black;
+}
+.seccion-contacto--email a{
+    font-size: 2rem;
+    background-color: rgb(60, 60, 60);;
+    border: 2px white solid;
+    border-radius: 30%;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.seccion-contacto--email a:hover{
+    background-color: white;
+    color: rgb(80,80,80);
+    border: 3px solid rgb(80,80,80);
 }
