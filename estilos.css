@@ -121,6 +121,11 @@ body{
     width: 280px;
     height: 280px;
     margin: 20px auto;
+    scale: 0.9;
+}
+.seccion-img img:hover{
+    scale: 1.0;
+    transition: 0.5s;
 }
 /*SECCION 3*/
 
@@ -249,6 +254,7 @@ body{
     text-align: center;
 }
 .footer-redes{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -261,4 +267,22 @@ body{
 }
 .footer-redes a{
     font-size: 2rem;
+}
+.footer-redes i{
+    color: rgb(80,80,80);
+}
+.footer-redes .fa-facebook:hover{
+    color: rgb(60, 60, 184);
+}
+.footer-redes .fa-twitter:hover{
+    color: rgb(144, 203, 255);
+}
+.footer-redes .fa-instagram:hover{
+    color:white;
+}
+.footer-redes .fa-linkedin:hover{
+    color: rgb(60, 60, 185);
+}
+.footer-redes .fa-github:hover{
+    color: rgb(255, 255, 255);
 }
