@@ -59,15 +59,30 @@ body{
     border-radius: 100%;
     border: double 10px rgb(32, 32, 32);
 }
+.seccion-div2{
+    display: flex;
+    justify-content: center;
+}
 .seccion-div2 h1{
     color: rgb(88, 88, 88);
     margin: 10px 0;
     text-shadow: 1px 1px 1px black;
     font-size: 3rem;
     font-family: sans-serif;
-    text-align: center;
+    white-space: nowrap;
+    border-right: 4px solid;
+    animation: typing 3s steps(19) infinite alternate, blink .5s infinite step-end alternate;
+    overflow:hidden;
+    width: 20.5ch;
 }
-.seccion-div2 p{
+
+@keyframes typing{
+    from {width: 0;}
+}
+@keyframes blink{
+    50%{border-color: transparent;}
+}
+.seccion-div2-parrafo p{
     color: black;
     margin: 10px 0;
     font-size: 1.8rem;
@@ -295,5 +310,14 @@ body{
     .seccion-contacto--titulo, .seccion-contacto--parrafo, .seccion-contacto--email{
         width: 100%;
         margin: 80px auto;
+    }
+}
+
+@media(max-width:546px){
+    .seccion-div2 h1{
+        border: none;
+        animation: none;
+        white-space:inherit;
+        text-align: center;
     }
 }
