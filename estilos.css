@@ -73,7 +73,7 @@ body{
     border-right: 4px solid;
     animation: typing 3s steps(19) infinite alternate, blink .5s infinite step-end alternate;
     overflow:hidden;
-    width: 20.5ch;
+    width: 21.9ch;
 }
 
 @keyframes typing{
