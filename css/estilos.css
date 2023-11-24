@@ -124,13 +124,14 @@ body{
 }
 .seccion-img{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 75px;
 }
 .seccion-img img{
-    width: 280px;
-    height: 280px;
-    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px;
     scale: 0.9;
 }
 .seccion-img img:hover{
@@ -157,10 +158,16 @@ body{
 .seccion-proyectos a{
     width: 600px;
     height: 400px;
-    margin: 20px auto;
+    margin: 50px auto;
     border-radius: 5%;
     opacity:0.8;
     scale: 0.9;
+    text-decoration: none;
+    text-align: center;
+}
+.seccion-proyectos a h3{
+    font-family: monospace;
+    color: rgb(80,80,80);
 }
 .seccion-proyectos a:hover{
     opacity:1;
@@ -173,7 +180,7 @@ body{
     border-radius: 5%;
 }
 .seccion-masProyectos{
-    margin-top: 50px;
+    margin-top: 115px;
     text-align: center;  
 }
 .seccion-masProyectos a{
