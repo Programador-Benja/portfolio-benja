@@ -54,6 +54,6 @@ const skills = [
     {
         id: 11,
         nombre: "Python",
-        img: "../img/python.png"
+        img: "img/python.png"
     }
 ]
