@@ -53,7 +53,7 @@ const skills = [
     },
     {
         id: 11,
-        nombre: "ApiRest",
+        nombre: "ApiRest1",
         img: "img/Api.png"
     },
     {
