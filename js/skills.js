@@ -53,7 +53,32 @@ const skills = [
     },
     {
         id: 11,
+        nombre: "Api Rest",
+        img: "img/api.png"
+    },
+    {
+        id: 12,
         nombre: "Python",
         img: "img/python.png"
+    },
+    {
+        id: 13,
+        nombre: "Angular",
+        img: "img/angular.png"
+    },
+    {
+        id: 14,
+        nombre: "TypeScript",
+        img: "img/ts.png"
+    },
+    {
+        id: 15,
+        nombre: "NodeJS",
+        img: "img/nodejs.png"
+    },
+    {
+        id: 16,
+        nombre: "PostMan",
+        img: "img/postman.png"
     }
 ]
