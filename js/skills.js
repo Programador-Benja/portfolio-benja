@@ -80,5 +80,35 @@ const skills = [
         id: 16,
         nombre: "PostMan",
         img: "img/postman.png"
+    },
+    {
+        id: 17,
+        nombre: "Linux",
+        img: "img/linux.png"
+    },
+    {
+        id: 18,
+        nombre: "PgAdmin",
+        img: "img/cursoPgAdmin4.png"
+    },
+    {
+        id: 19,
+        nombre: "Gitlab",
+        img: "img/gitlab.png"
+    },
+    {
+        id: 20,
+        nombre: "Docker",
+        img: "img/docker.png"
+    },
+    {
+        id: 21,
+        nombre: "Postgres",
+        img: "img/postgresql.png"
+    },
+    {
+        id: 22,
+        nombre: "Warp",
+        img: "img/warp.png"
     }
 ]
