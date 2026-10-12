@@ -28,12 +28,6 @@ body{
     color: #ffffff !important;
 }
 
-.modo-oscuro .seccion-div-img{
-    border: double 10px rgb(225, 225, 225);
-}
-
-
-
 /*HEADER*/
 
 .header{
@@ -82,7 +76,6 @@ body{
 .seccion-div img{
     width: 500px;
     border-radius: 100%;
-    border: double 10px rgb(32, 32, 32);
 }
 .seccion-div2{
     display: flex;
